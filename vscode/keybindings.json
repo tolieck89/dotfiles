@@ -1,0 +1,23 @@
+[
+  {
+    "key": "ctrl+alt+s",
+    "command": "liveSassCompile.compile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "liveServer.goOnline"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]
