@@ -51,4 +51,15 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ritwickdey.liveserver
 code --install-extension glenn2223.live-sass
 code --install-extension pkief.material-icon-theme
+# 9. Встановлюємо nvm + останню LTS Node.js
+echo "🔁 Встановлюємо nvm та Node.js LTS..."
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install --lts
+
+# Додаємо в .zshrc для постійної доступності
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> ~/.zshrc
 
