@@ -44,3 +44,11 @@ chsh -s $(which zsh)
 
 echo "✅ Усе встановлено! Перезапусти термінал або введи: exec zsh"
 
+# 8. Встановлюємо VS Code розширення
+echo "🧩 Встановлюємо VS Code extensions..."
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension ritwickdey.liveserver
+code --install-extension glenn2223.live-sass
+code --install-extension pkief.material-icon-theme
+
