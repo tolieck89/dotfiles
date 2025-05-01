@@ -1,0 +1,44 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../css"
+    }
+  ],
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "workbench.settings.editor": "json"
+}
+
